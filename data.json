@@ -1,0 +1,354 @@
+{
+  "goal": 10000,
+  "total_sent": 7437,
+  "remaining": 2563,
+  "weekdays_left": 2,
+  "pace_needed": 1282,
+  "pace_actual": 0,
+  "stock_candidate": 1993,
+  "stock_sent": 5160,
+  "stock_failed": 4149,
+  "stock_dedup": 11481,
+  "fail_no_matching": 5281,
+  "fail_error": 5915,
+  "fail_post_done": 5752,
+  "fail_auth_required": 14,
+  "captcha_total": 8042,
+  "captcha_pending": 5195,
+  "daily": [
+    {
+      "date": "2026-05-29",
+      "release": 0,
+      "candidate": 0,
+      "sent": 0,
+      "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-05-30",
+      "release": 827,
+      "candidate": 127,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-05-31",
+      "release": 23,
+      "candidate": 46,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-01",
+      "release": 3224,
+      "candidate": 757,
+      "sent": 11,
+      "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-02",
+      "release": 2411,
+      "candidate": 545,
+      "sent": 430,
+      "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-03",
+      "release": 2213,
+      "candidate": 481,
+      "sent": 134,
+      "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-04",
+      "release": 2499,
+      "candidate": 538,
+      "sent": 444,
+      "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-05",
+      "release": 2438,
+      "candidate": 500,
+      "sent": 0,
+      "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-06",
+      "release": 310,
+      "candidate": 38,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-07",
+      "release": 18,
+      "candidate": 24,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-08",
+      "release": 22,
+      "candidate": 500,
+      "sent": 52,
+      "failed": 144,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-09",
+      "release": 0,
+      "candidate": 712,
+      "sent": 107,
+      "failed": 259,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-10",
+      "release": 2395,
+      "candidate": 679,
+      "sent": 94,
+      "failed": 203,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-11",
+      "release": 2564,
+      "candidate": 650,
+      "sent": 641,
+      "failed": 1418,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-12",
+      "release": 2307,
+      "candidate": 576,
+      "sent": 357,
+      "failed": 915,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-13",
+      "release": 278,
+      "candidate": 52,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-14",
+      "release": 200,
+      "candidate": 38,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-15",
+      "release": 2253,
+      "candidate": 621,
+      "sent": 154,
+      "failed": 424,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-16",
+      "release": 2483,
+      "candidate": 735,
+      "sent": 919,
+      "failed": 1710,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-17",
+      "release": 0,
+      "candidate": 0,
+      "sent": 713,
+      "failed": 989,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-18",
+      "release": 3073,
+      "candidate": 660,
+      "sent": 70,
+      "failed": 1779,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-19",
+      "release": 2434,
+      "candidate": 850,
+      "sent": 541,
+      "failed": 3222,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-20",
+      "release": 293,
+      "candidate": 43,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-21",
+      "release": 221,
+      "candidate": 26,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    },
+    {
+      "date": "2026-06-22",
+      "release": 2047,
+      "candidate": 498,
+      "sent": 551,
+      "failed": 722,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-23",
+      "release": 2533,
+      "candidate": 592,
+      "sent": 966,
+      "failed": 810,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-24",
+      "release": 2537,
+      "candidate": 534,
+      "sent": 247,
+      "failed": 300,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-25",
+      "release": 3705,
+      "candidate": 1144,
+      "sent": 478,
+      "failed": 2286,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-26",
+      "release": 10122,
+      "candidate": 1027,
+      "sent": 528,
+      "failed": 1781,
+      "weekend": false
+    },
+    {
+      "date": "2026-06-27",
+      "release": 355,
+      "candidate": 36,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
+    }
+  ],
+  "process_table": [
+    {
+      "step": "① リリース取得",
+      "status": "✅ 安定",
+      "status_code": "ok",
+      "issues": [
+        "valuepressがIP規制でブロック(2026-06-07)"
+      ],
+      "measures": [
+        "Docker + NordVPN (OpenVPN/TCP) で取得。Mac全体VPN廃止でSalesforceセッション影響ゼロ"
+      ],
+      "metrics": "3,000〜10,000件/日 取得"
+    },
+    {
+      "step": "② フォームURL取得",
+      "status": "⚠️ 一部課題",
+      "status_code": "warn",
+      "issues": [
+        "form_finderが誤URLを約13%取得",
+        "JS描画・リンク辿りで未発見の企業が残存"
+      ],
+      "measures": [
+        "JS描画+リンク辿り対応で窓口なし288社回復(+12%)",
+        "Gemini URL探索は貢献ゼロ・コスト負けで無効化",
+        "誤URL対策: ドメイン突合検証(再発防止C, #50)"
+      ],
+      "metrics": "回収率+12%達成"
+    },
+    {
+      "step": "③ 突合・記録",
+      "status": "✅ 安定",
+      "status_code": "ok",
+      "issues": [
+        "B台帳(1ヶ月dedup)での二重送信ブロック",
+        "NG리스트の月次タブが2ヶ月遅れで管理"
+      ],
+      "measures": [
+        "会社+URL両軸で1ヶ月ブロック(#49実装済)",
+        "当日URLガード廃止・B台帳に一元化",
+        "send.lockで二重起動防止"
+      ],
+      "metrics": "重複ブロック率: 本番487件で4件検知"
+    },
+    {
+      "step": "④ パターン判定",
+      "status": "⚠️ 一部未対応",
+      "status_code": "warn",
+      "issues": [
+        "P3(table型フォーム) / P6(特殊実装) が未対応",
+        "CAPTCHA過検出で約7割を不要ブロック(修正済)"
+      ],
+      "measures": [
+        "多軸スコアリングで判定精度改善(#33)",
+        "CAPTCHA過検出修正(a57a928): invisibleは通過",
+        "P3/P6専用処理は中長期課題(#29)"
+      ],
+      "metrics": "回収率+10pt(iframe修正で16→26%)"
+    },
+    {
+      "step": "⑤ 入力〜送信",
+      "status": "🔴 主要ボトルネック",
+      "status_code": "error",
+      "issues": [
+        "大企業の/contactはJS製SPAで入力不可",
+        "送信量が目標868件/日に対し不足",
+        "重複送信事故(2026-06-23: 約20社に2-5回)"
+      ],
+      "measures": [
+        "safe_submit/already_sent/seed_sent_guardでコード強制の重複ガード(claude_fill_helpers.py)",
+        "safe_select_optionで誤選択肢(CrowdStrike型)を排除",
+        "Sonnet採用(Opus比コスト1/15、同等送信率)",
+        "並列エージェントは停止・botを主軸に"
+      ],
+      "metrics": "難フォーム歩留まり53%(bot比4倍)"
+    },
+    {
+      "step": "⑥ 判定・記録",
+      "status": "⚠️ 一部課題",
+      "status_code": "warn",
+      "issues": [
+        "JS送信フォームは画面遷移なし→判定困難",
+        "Google Sheets API 429でhistory漏れが発生",
+        "validation_errorは実はPOST済(届いた可能性)"
+      ],
+      "measures": [
+        "サーバ応答(POST 2xx/4xx5xx)主役の判定に変更",
+        "Gmail自動返信突合で要目視を自動確定(15分おき)",
+        "append_historyのbatch化+60秒backoff(#24)",
+        "重複行は自動削除→送信履歴=請求書の根拠"
+      ],
+      "metrics": "要目視991行→736社を送信済に確定"
+    }
+  ],
+  "updated_at": "2026-06-27 22:54 JST"
+}
