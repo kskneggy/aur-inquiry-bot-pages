@@ -4,26 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>アウル投げ込みBot — 進捗ダッシュボード</title>
+  <style id="auth-hide">body > *:not(#auth-gate) { display: none !important; }</style>
   <script>
-  // パスワードゲート (SHA-256ハッシュ比較)
   const HASH = '89f92a7f70573102c7452efb3ced75829e82b518fdd621e66f1637b1521d8de2';
   const KEY  = 'aur_pages_auth';
   async function sha256(str) {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
     return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
   }
-  async function checkAuth() {
-    if (sessionStorage.getItem(KEY) === '1') return;
-    const pwd = prompt('パスワードを入力してください');
-    if (!pwd) { document.body.innerHTML = ''; return; }
+  function unlock() {
+    document.getElementById('auth-gate').remove();
+    document.getElementById('auth-hide').remove();
+  }
+  window.onAuthSubmit = async function(e) {
+    e.preventDefault();
+    const pwd = document.getElementById('auth-pwd').value;
+    const err = document.getElementById('auth-err');
     if (await sha256(pwd) === HASH) {
       sessionStorage.setItem(KEY, '1');
+      unlock();
     } else {
-      alert('パスワードが違います');
-      document.body.innerHTML = '';
+      err.textContent = 'パスワードが違います';
+      document.getElementById('auth-pwd').value = '';
+      document.getElementById('auth-pwd').focus();
     }
+  };
+  if (sessionStorage.getItem(KEY) === '1') {
+    document.addEventListener('DOMContentLoaded', unlock);
   }
-  checkAuth();
   </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
@@ -50,6 +58,23 @@
   </style>
 </head>
 <body class="min-h-screen">
+
+<!-- パスワードゲート -->
+<div id="auth-gate" style="display:flex;align-items:center;justify-content:center;height:100vh;background:#0f1117;">
+  <div style="background:#1a1f2e;border:1px solid #2d3748;border-radius:12px;padding:40px 48px;text-align:center;width:320px;">
+    <div style="font-size:1.5rem;font-weight:700;color:#e2e8f0;margin-bottom:8px;">アウル投げ込みBot</div>
+    <div style="font-size:0.8rem;color:#64748b;margin-bottom:28px;">進捗ダッシュボード</div>
+    <form onsubmit="onAuthSubmit(event)">
+      <input id="auth-pwd" type="password" placeholder="パスワード" autofocus
+        style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid #2d3748;background:#0f1117;color:#e2e8f0;font-size:0.95rem;box-sizing:border-box;outline:none;margin-bottom:12px;">
+      <button type="submit"
+        style="width:100%;padding:10px;border-radius:8px;background:#3b82f6;color:#fff;font-size:0.95rem;font-weight:600;border:none;cursor:pointer;">
+        ログイン
+      </button>
+      <div id="auth-err" style="color:#f87171;font-size:0.8rem;margin-top:10px;min-height:1.2em;"></div>
+    </form>
+  </div>
+</div>
 
 <div class="max-w-7xl mx-auto px-4 py-8">
 
