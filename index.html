@@ -4,6 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>アウル投げ込みBot — 進捗ダッシュボード</title>
+  <script>
+  // パスワードゲート (SHA-256ハッシュ比較)
+  const HASH = '89f92a7f70573102c7452efb3ced75829e82b518fdd621e66f1637b1521d8de2';
+  const KEY  = 'aur_pages_auth';
+  async function sha256(str) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+  }
+  async function checkAuth() {
+    if (sessionStorage.getItem(KEY) === '1') return;
+    const pwd = prompt('パスワードを入力してください');
+    if (!pwd) { document.body.innerHTML = ''; return; }
+    if (await sha256(pwd) === HASH) {
+      sessionStorage.setItem(KEY, '1');
+    } else {
+      alert('パスワードが違います');
+      document.body.innerHTML = '';
+    }
+  }
+  checkAuth();
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
