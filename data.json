@@ -1,20 +1,20 @@
 {
   "goal": 10000,
-  "total_sent": 99999,
+  "total_sent": 11501,
   "remaining": 0,
   "weekdays_left": 0,
   "pace_needed": 0,
   "pace_actual": 0,
-  "stock_candidate": 749,
-  "stock_sent": 5983,
-  "stock_failed": 3917,
-  "stock_dedup": 14895,
-  "fail_no_matching": 7414,
-  "fail_error": 8541,
-  "fail_post_done": 6718,
+  "stock_candidate": 651,
+  "stock_sent": 6255,
+  "stock_failed": 4184,
+  "stock_dedup": 14913,
+  "fail_no_matching": 7534,
+  "fail_error": 8644,
+  "fail_post_done": 6762,
   "fail_auth_required": 14,
-  "captcha_total": 11121,
-  "captcha_pending": 11121,
+  "captcha_total": 11492,
+  "captcha_pending": 11492,
   "daily": [
     {
       "date": "2026-06-01",
@@ -47,14 +47,6 @@
       "sent": 444,
       "failed": 0,
       "weekend": false
-    },
-    {
-      "date": "2026-06-07",
-      "release": 18,
-      "candidate": 24,
-      "sent": 0,
-      "failed": 0,
-      "weekend": true
     },
     {
       "date": "2026-06-08",
@@ -244,7 +236,7 @@
       "date": "2026-07-01",
       "release": 4464,
       "candidate": 689,
-      "sent": 196,
+      "sent": 198,
       "failed": 20,
       "weekend": false
     },
@@ -252,7 +244,7 @@
       "date": "2026-07-02",
       "release": 2689,
       "candidate": 390,
-      "sent": 408,
+      "sent": 453,
       "failed": 1430,
       "weekend": false
     },
@@ -260,7 +252,7 @@
       "date": "2026-07-03",
       "release": 2645,
       "candidate": 340,
-      "sent": 168,
+      "sent": 182,
       "failed": 753,
       "weekend": false
     },
@@ -284,8 +276,16 @@
       "date": "2026-07-06",
       "release": 2236,
       "candidate": 352,
-      "sent": 242,
+      "sent": 249,
       "failed": 708,
+      "weekend": false
+    },
+    {
+      "date": "2026-07-07",
+      "release": 2870,
+      "candidate": 471,
+      "sent": 399,
+      "failed": 267,
       "weekend": false
     }
   ],
@@ -382,5 +382,5 @@
       "metrics": "要目視991行→736社を送信済に確定"
     }
   ],
-  "updated_at": "2026-07-06 14:00 JST"
+  "updated_at": "2026-07-07 12:37 JST"
 }
