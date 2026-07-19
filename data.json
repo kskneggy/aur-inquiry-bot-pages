@@ -5,16 +5,16 @@
   "weekdays_left": 0,
   "pace_needed": 0,
   "pace_actual": 0,
-  "stock_candidate": 533,
-  "stock_sent": 7670,
-  "stock_failed": 3698,
+  "stock_candidate": 557,
+  "stock_sent": 7617,
+  "stock_failed": 3690,
   "stock_dedup": 20490,
   "fail_no_matching": 9671,
   "fail_error": 11272,
   "fail_post_done": 7393,
   "fail_auth_required": 16,
-  "captcha_total": 15415,
-  "captcha_pending": 15314,
+  "captcha_total": 15536,
+  "captcha_pending": 15435,
   "daily": [
     {
       "date": "2026-06-01",
@@ -122,10 +122,10 @@
     },
     {
       "date": "2026-06-19",
-      "release": 2434,
-      "candidate": 850,
+      "release": 0,
+      "candidate": 0,
       "sent": 749,
-      "failed": 3222,
+      "failed": 0,
       "weekend": false
     },
     {
@@ -359,6 +359,14 @@
       "sent": 0,
       "failed": 0,
       "weekend": true
+    },
+    {
+      "date": "2026-07-19",
+      "release": 267,
+      "candidate": 25,
+      "sent": 0,
+      "failed": 0,
+      "weekend": true
     }
   ],
   "process_table": [
@@ -454,5 +462,5 @@
       "metrics": "要目視991行→736社を送信済に確定"
     }
   ],
-  "updated_at": "2026-07-18 11:16 JST"
+  "updated_at": "2026-07-19 11:19 JST"
 }
