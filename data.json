@@ -1,20 +1,20 @@
 {
   "goal": 10000,
-  "total_sent": 15428,
+  "total_sent": 15824,
   "remaining": 0,
   "weekdays_left": 0,
   "pace_needed": 0,
   "pace_actual": 0,
-  "stock_candidate": 602,
-  "stock_sent": 7617,
-  "stock_failed": 3690,
-  "stock_dedup": 20490,
-  "fail_no_matching": 9671,
-  "fail_error": 11272,
-  "fail_post_done": 7393,
-  "fail_auth_required": 16,
-  "captcha_total": 15677,
-  "captcha_pending": 15576,
+  "stock_candidate": 194,
+  "stock_sent": 7812,
+  "stock_failed": 4141,
+  "stock_dedup": 20700,
+  "fail_no_matching": 10589,
+  "fail_error": 12489,
+  "fail_post_done": 7477,
+  "fail_auth_required": 18,
+  "captcha_total": 16088,
+  "captcha_pending": 15987,
   "daily": [
     {
       "date": "2026-06-01",
@@ -129,14 +129,6 @@
       "weekend": false
     },
     {
-      "date": "2026-06-21",
-      "release": 221,
-      "candidate": 26,
-      "sent": 0,
-      "failed": 0,
-      "weekend": true
-    },
-    {
       "date": "2026-06-22",
       "release": 2047,
       "candidate": 498,
@@ -220,7 +212,7 @@
       "date": "2026-07-02",
       "release": 2689,
       "candidate": 390,
-      "sent": 688,
+      "sent": 689,
       "failed": 1430,
       "weekend": false
     },
@@ -252,7 +244,7 @@
       "date": "2026-07-06",
       "release": 2236,
       "candidate": 352,
-      "sent": 267,
+      "sent": 280,
       "failed": 708,
       "weekend": false
     },
@@ -260,7 +252,7 @@
       "date": "2026-07-07",
       "release": 2870,
       "candidate": 471,
-      "sent": 400,
+      "sent": 402,
       "failed": 267,
       "weekend": false
     },
@@ -268,7 +260,7 @@
       "date": "2026-07-08",
       "release": 5134,
       "candidate": 699,
-      "sent": 668,
+      "sent": 682,
       "failed": 1864,
       "weekend": false
     },
@@ -276,7 +268,7 @@
       "date": "2026-07-09",
       "release": 2677,
       "candidate": 367,
-      "sent": 227,
+      "sent": 229,
       "failed": 701,
       "weekend": false
     },
@@ -308,7 +300,7 @@
       "date": "2026-07-13",
       "release": 2409,
       "candidate": 398,
-      "sent": 201,
+      "sent": 203,
       "failed": 1088,
       "weekend": false
     },
@@ -316,7 +308,7 @@
       "date": "2026-07-14",
       "release": 2677,
       "candidate": 484,
-      "sent": 404,
+      "sent": 414,
       "failed": 215,
       "weekend": false
     },
@@ -324,7 +316,7 @@
       "date": "2026-07-15",
       "release": 3096,
       "candidate": 550,
-      "sent": 317,
+      "sent": 322,
       "failed": 249,
       "weekend": false
     },
@@ -332,7 +324,7 @@
       "date": "2026-07-16",
       "release": 2905,
       "candidate": 534,
-      "sent": 671,
+      "sent": 679,
       "failed": 218,
       "weekend": false
     },
@@ -340,7 +332,7 @@
       "date": "2026-07-17",
       "release": 3026,
       "candidate": 515,
-      "sent": 850,
+      "sent": 899,
       "failed": 204,
       "weekend": false
     },
@@ -366,6 +358,14 @@
       "candidate": 47,
       "sent": 0,
       "failed": 0,
+      "weekend": false
+    },
+    {
+      "date": "2026-07-21",
+      "release": 2728,
+      "candidate": 456,
+      "sent": 20,
+      "failed": 2221,
       "weekend": false
     }
   ],
@@ -462,5 +462,5 @@
       "metrics": "要目視991行→736社を送信済に確定"
     }
   ],
-  "updated_at": "2026-07-20 12:25 JST"
+  "updated_at": "2026-07-21 11:57 JST"
 }
