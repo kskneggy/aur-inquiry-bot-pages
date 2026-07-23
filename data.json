@@ -1,20 +1,20 @@
 {
   "goal": 10000,
-  "total_sent": 16219,
+  "total_sent": 16490,
   "remaining": 0,
   "weekdays_left": 0,
   "pace_needed": 0,
   "pace_actual": 4,
-  "stock_candidate": 104,
-  "stock_sent": 8011,
-  "stock_failed": 4392,
-  "stock_dedup": 20790,
-  "fail_no_matching": 10766,
-  "fail_error": 13873,
-  "fail_post_done": 7839,
+  "stock_candidate": 339,
+  "stock_sent": 8277,
+  "stock_failed": 4310,
+  "stock_dedup": 20684,
+  "fail_no_matching": 11082,
+  "fail_error": 14458,
+  "fail_post_done": 7977,
   "fail_auth_required": 18,
-  "captcha_total": 16482,
-  "captcha_pending": 3818,
+  "captcha_total": 16690,
+  "captcha_pending": 4018,
   "daily": [
     {
       "date": "2026-06-01",
@@ -138,10 +138,10 @@
     },
     {
       "date": "2026-06-23",
-      "release": 2533,
-      "candidate": 592,
+      "release": 0,
+      "candidate": 0,
       "sent": 974,
-      "failed": 810,
+      "failed": 0,
       "weekend": false
     },
     {
@@ -252,7 +252,7 @@
       "date": "2026-07-07",
       "release": 2870,
       "candidate": 471,
-      "sent": 402,
+      "sent": 405,
       "failed": 267,
       "weekend": false
     },
@@ -260,7 +260,7 @@
       "date": "2026-07-08",
       "release": 5134,
       "candidate": 699,
-      "sent": 682,
+      "sent": 690,
       "failed": 1864,
       "weekend": false
     },
@@ -276,7 +276,7 @@
       "date": "2026-07-10",
       "release": 2784,
       "candidate": 2321,
-      "sent": 287,
+      "sent": 288,
       "failed": 859,
       "weekend": false
     },
@@ -300,7 +300,7 @@
       "date": "2026-07-13",
       "release": 2409,
       "candidate": 398,
-      "sent": 203,
+      "sent": 204,
       "failed": 1088,
       "weekend": false
     },
@@ -372,8 +372,16 @@
       "date": "2026-07-22",
       "release": 2866,
       "candidate": 468,
-      "sent": 395,
+      "sent": 470,
       "failed": 1923,
+      "weekend": false
+    },
+    {
+      "date": "2026-07-23",
+      "release": 2198,
+      "candidate": 320,
+      "sent": 177,
+      "failed": 1039,
       "weekend": false
     }
   ],
@@ -470,5 +478,5 @@
       "metrics": "要目視991行→736社を送信済に確定"
     }
   ],
-  "updated_at": "2026-07-22 12:00 JST"
+  "updated_at": "2026-07-23 12:00 JST"
 }
